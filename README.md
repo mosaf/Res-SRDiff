@@ -40,7 +40,7 @@ The following diagram illustrates the diffusion process used in this project:
 2. **Install dependencies:**
 
     ```bash
-    pip install -r requirements.txt
+    conda env update --file environment.yml --prune
 
 ## Running the Code
 
