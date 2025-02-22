@@ -66,7 +66,7 @@ If you find **PI-MoCoNet** useful for your research or project, please consider 
 ```
 @misc{safari2025ResSRDiff,
       title={Accelerated MRI Super-Resolution Using Residual Shifting in Diffusion Probabilistic Models}, 
-      author={Moj},
+      author={},
       year={2025},
       eprint={},
       archivePrefix={arXiv},
