@@ -54,7 +54,7 @@ python main.py
 
 
 The diagram below visualizes the key hyper-parameters used in this model:
-<p align="center"> <img src="./figures/hyperparameters_v2.svg" alt="Hyper-parameters" width="600"/> </p>
+<p align="center"> <img src="./figures/hyperparameters_v2.svg" alt="Hyper-parameters" width="1000"/> </p>
 
 
 ## 📚 Citation
