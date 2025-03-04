@@ -1,4 +1,4 @@
-# <p align=center>`Accelerated MRI Super-Resolution Using Residual Shifting in Diffusion Probabilistic Models`</p> # 
+# <p align=center>`MRI super-resolution reconstruction using efficient diffusion probabilistic model with residual shifting`</p> # 
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)    ![Paper Status](https://img.shields.io/badge/Paper%20Status-Under%20Review-yellow)
@@ -7,7 +7,7 @@
 
 :fire::fire:**Res-SRDiff** is a deep learning framework designed to robustly restore high-resolution pelvic T2w MRI and ultra-high field brain T1 maps using an efficient probabilistic diffusion model.
 
-- Our paper on arXiv: [Accelerated MRI Super-Resolution Using Residual Shifting in Diffusion Probabilistic Models](https://arxiv.org) :heart:
+- Our paper on arXiv: [MRI super-resolution reconstruction using efficient diffusion probabilistic model with residual shifting](https://arxiv.org/abs/2503.01576) :heart:
 
 
 ## 🔍 Diffusion Process
@@ -15,7 +15,7 @@
 The following diagram illustrates the diffusion process used in this project:
 
 
-<p align="center"> <img src="./figures/diffusionprocess.svg" alt="Hyper-parameters" width="600"/> </p>
+<p align="center"> <img src="./figures/diffusionprocess.svg" alt="Hyper-parameters" width="1000"/> </p>
 
 
 
@@ -64,14 +64,14 @@ The diagram below visualizes the key hyper-parameters used in this model:
 If you find **PI-MoCoNet** useful for your research or project, please consider citing our work:
 
 ```
-@misc{safari2025ResSRDiff,
-      title={Accelerated MRI Super-Resolution Using Residual Shifting in Diffusion Probabilistic Models}, 
-      author={},
+@misc{safari2025mrisuperresolutionreconstructionusing,
+      title={MRI super-resolution reconstruction using efficient diffusion probabilistic model with residual shifting}, 
+      author={Mojtaba Safari and Shansong Wang and Zach Eidex and Qiang Li and Erik H. Middlebrooks and David S. Yu and Xiaofeng Yang},
       year={2025},
-      eprint={},
+      eprint={2503.01576},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org}, 
+      url={https://arxiv.org/abs/2503.01576}, 
 }
 ```
 
