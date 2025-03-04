@@ -61,7 +61,7 @@ The diagram below visualizes the key hyper-parameters used in this model:
 
 [//]: # (      author={Mojtaba Safari and Shansong Wang and Zach Eidex and Richard Qiu and Chih-Wei Chang and David S. Yu and Xiaofeng Yang},)
 
-If you find **PI-MoCoNet** useful for your research or project, please consider citing our work:
+If you find **Res-SRDiff** useful for your research or project, please consider citing our work:
 
 ```
 @misc{safari2025mrisuperresolutionreconstructionusing,
