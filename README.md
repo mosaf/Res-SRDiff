@@ -1,7 +1,7 @@
 # <p align=center>`MRI super-resolution reconstruction using efficient diffusion probabilistic model with residual shifting`</p> # 
 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)  ![Paper Status](https://img.shields.io/badge/Paper%20Status-Accepted%20PMB-brightgreen)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)  [![Paper Status](https://img.shields.io/badge/Paper%20Status-Accepted%20%26%20Open%20Access-8a2be2)](https://doi.org/10.1088/1361-6560/ade049) 
 
 
 
