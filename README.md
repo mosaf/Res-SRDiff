@@ -77,4 +77,4 @@ If you find **Res-SRDiff** useful for your research or project, please consider 
 
 ## Acknowledgments
 
-- This project is based on [Original Repository Name](https://github.com/zsyOAOA/ResShift) :heart:.
+- This project is based on [ResShift](https://github.com/zsyOAOA/ResShift) :heart:.
