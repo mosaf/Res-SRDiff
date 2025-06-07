@@ -1,7 +1,7 @@
 # <p align=center>`MRI super-resolution reconstruction using efficient diffusion probabilistic model with residual shifting`</p> # 
 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)    ![Paper Status](https://img.shields.io/badge/Paper%20Status-Under%20Review-yellow)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)  ![Paper Status](https://img.shields.io/badge/Paper%20Status-Accepted%20PMB-brightgreen)
 
 
 
@@ -15,13 +15,12 @@
 The following diagram illustrates the diffusion process used in this project:
 
 
-<p align="center"> <img src="./figures/diffusionprocess.svg" alt="Hyper-parameters" width="1000"/> </p>
+<p align="center"> <img src="./figures/diffusion_processes_v3.jpg" alt="Hyper-parameters" width="1000"/> </p>
 
 
 
 ## Getting Started
 
-**⚠️ *Important:* The code for this study will be released publicly <span style="color:red;">  upon acceptance </span>of the manuscript .**
 ### Prerequisites
 
 - Python (>=3.12)
@@ -64,18 +63,18 @@ The diagram below visualizes the key hyper-parameters used in this model:
 If you find **Res-SRDiff** useful for your research or project, please consider citing our work:
 
 ```
-@misc{safari2025mrisuperresolutionreconstructionusing,
-      title={MRI super-resolution reconstruction using efficient diffusion probabilistic model with residual shifting}, 
-      author={Mojtaba Safari and Shansong Wang and Zach Eidex and Qiang Li and Erik H. Middlebrooks and David S. Yu and Xiaofeng Yang},
-      year={2025},
-      eprint={2503.01576},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2503.01576}, 
+
+@article{10.1088/1361-6560/ade049,
+	author={Safari, Mojtaba and Wang, Shansong and Eidex, Zach and Li, Qiang and Qiu, Richard L J and Middlebrooks, Erik H and Yu, David S and Yang, Xiaofeng},
+	title={MRI super-resolution reconstruction using efficient diffusion probabilistic model with residual shifting},
+	journal={Physics in Medicine & Biology},
+	url={http://iopscience.iop.org/article/10.1088/1361-6560/ade049},
+	year={2025},
+	abstract={Objective: Magnetic resonance imaging (MRI) is essential in clinical and research contexts, providing exceptional soft-tissue contrast. However, prolonged acquisition times often lead to patient discomfort and motion artifacts. Diffusion-based deep learning super-resolution (SR) techniques reconstruct high-resolution (HR) images from low-resolution (LR) pairs, but they involve extensive sampling steps, limiting real-time application. To overcome these issues, this study introduces a residual error-shifting mechanism markedly reducing sampling steps while maintaining vital anatomical details, thereby accelerating MRI reconstruction. Approach: We developed Res-SRDiff, a novel diffusion-based SR framework incorporating residual error shifting into the forward diffusion process. This integration aligns the degraded HR and LR distributions, enabling efficient HR image reconstruction. We evaluated Res-SRDiff using ultra-high-field brain T1 MP2RAGE maps and T2-weighted prostate images, benchmarking it against Bicubic, Pix2pix, CycleGAN, SPSR, I2SB, and TM-DDPM methods. Quantitative assessments employed peak signal-to-noise ratio (PSNR), structural similarity index (SSIM), gradient magnitude similarity deviation (GMSD), and learned perceptual image patch similarity (LPIPS). Additionally, we qualitatively and quantitatively assessed the proposed framework’s individual components through an ablation study and conducted a Likert-based image quality evaluation. Main results: Res-SRDiff significantly surpassed most comparison methods regarding PSNR, SSIM, and GMSD for both datasets, with statistically significant improvements (p-values≪0.05). The model achieved high-fidelity image reconstruction using only four sampling steps, drastically reducing computation time to under one second per slice. In contrast, traditional methods like TM-DDPM and I2SB required approximately 20 and 38 seconds per slice, respectively. Qualitative analysis showed Res-SRDiff effectively preserved fine anatomical details and lesion morphologies. The Likert study indicated that our method received the highest scores, 4.14±0.77(brain) and 4.80±0.40(prostate). Significance:Res-SRDiff demonstrates efficiency and accuracy, markedly improving computational speed and image quality. Incorporating residual error shifting into diffusion-based SR facilitates rapid, robust HR image reconstruction, enhancing clinical MRI workflow and advancing medical imaging research. Code available at https://github.com/mosaf/Res-SRDiff}
 }
 ```
 
 
 ## Acknowledgments
 
-- This project is based on [Original Repository Name](https://github.com/).
+- This project is based on [Original Repository Name](https://github.com/zsyOAOA/ResShift) :heart:.
