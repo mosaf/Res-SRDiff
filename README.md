@@ -67,8 +67,9 @@ If you find **Res-SRDiff** useful for your research or project, please consider 
 @article{10.1088/1361-6560/ade049,
 	author={Safari, Mojtaba and Wang, Shansong and Eidex, Zach and Li, Qiang and Qiu, Richard L J and Middlebrooks, Erik H and Yu, David S and Yang, Xiaofeng},
 	title={MRI super-resolution reconstruction using efficient diffusion probabilistic model with residual shifting},
-	journal={Physics in Medicine & Biology},
+	journal={Physics in Medicine \& Biology},
 	url={http://iopscience.iop.org/article/10.1088/1361-6560/ade049},
+	doi={https://doi.org/10.1088/1361-6560/ade049},
 	year={2025}
 }
 ```
