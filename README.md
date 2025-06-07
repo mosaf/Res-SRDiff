@@ -7,7 +7,7 @@
 
 :fire::fire:**Res-SRDiff** is a deep learning framework designed to robustly restore high-resolution pelvic T2w MRI and ultra-high field brain T1 maps using an efficient probabilistic diffusion model.
 
-- Our paper on arXiv: [MRI super-resolution reconstruction using efficient diffusion probabilistic model with residual shifting](https://arxiv.org/abs/2503.01576) :heart:
+- Our paper on Physics in Medicine and Biology: [MRI super-resolution reconstruction using efficient diffusion probabilistic model with residual shifting](https://doi.org/10.1088/1361-6560/ade049) :heart:
 
 
 ## 🔍 Diffusion Process
