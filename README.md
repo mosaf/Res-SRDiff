@@ -41,11 +41,32 @@ The following diagram illustrates the diffusion process used in this project:
     ```bash
     conda env update --file environment.yml --prune
 
+
+## 📦 Pretrained Weights
+
+You can download the pretrained model weights below:
+
+- 🔗 [Download Res-SRDiff weights for Brain (Google Drive)](https://drive.google.com/file/d/1WlcSHRpkFPXqIjkDO4vcLEFUViHSlta9/view?usp=drive_link)
+- 🔗 [Download Res-SRDiff weights for Prostate (Google Drive)](https://drive.google.com/file/d/1_lcg1r3vqluiBwmgFABMqBZP5B07THnf/view?usp=drive_link)
+
+After downloading, place the `.pt` files into a folder named `out_dir`:
+
+```bash
+
+mkdir -p out_dir
+mv path_to_downloaded_weights.pt out_dir/
+```
+⚠️ Note: The provided weights are for research use only and were trained on de-identified/public datasets.
+
+
+
+
 ## Running the Code
 
 To run the project, modify the parameters in the `main.py` file and execute the `main.py` script:
 
 ```bash
+
 python main.py
 ```
 

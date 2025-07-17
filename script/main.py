@@ -97,10 +97,10 @@ if __name__ == '__main__':
     parser.add_argument('--model_ckpt_path', type=str, default=None, help='Directory for saved model.')
 
     ### Input image parameters
-    parser.add_argument('--image_size', type=int, default=384, help='Image size')
+    parser.add_argument('--image_size', type=int, default=256, help='Image size: default 256 for prostate, 384 for brain')
     parser.add_argument('--in_channels', type=int, default=1, help="input channels")
     parser.add_argument('--out_channels', type=int, default=1, help="output channels")
-    parser.add_argument('--model_channels', type=int, default=64, help='model channels: default 64')
+    parser.add_argument('--model_channels', type=int, default=160, help='model channels: default 64 for brain, 160 for prostate')
     parser.add_argument('--num_res_blocks', type=tuple, default=[2, 2, 2, 2], help="Number of residual blocks")
     parser.add_argument('--attention_resolutions', type=tuple, default=(64,32,16,8), help="Attention resolutions")
     parser.add_argument('--cond_lq', type=utils.boolean_string, default=True, help='')
